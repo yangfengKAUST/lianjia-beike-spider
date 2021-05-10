@@ -6,9 +6,9 @@
 
 
 
-import aiohttp
-import aiofiles
-import asyncio
+# import aiohttp
+# import aiofiles
+# import asyncio
 import os
 import time
 from lib.zone.city import get_chinese_city

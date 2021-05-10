@@ -61,7 +61,8 @@ class BaseSpider(object):
                 city_info.append("\n")
             else:
                 city_info.append(", ")
-        return 'Which city do you want to crawl?\n' + ''.join(city_info)
+        return '' \
+               'Which city do you want to crawl?\n' + ''.join(city_info)
 
     def get_chinese_city(self, en):
         """
